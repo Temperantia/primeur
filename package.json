@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "start": "ts-node-dev crawler.ts"
+    "start": "ts-node-dev crawler.ts",
+    "cities": "ts-node-dev cities.ts"
   },
   "dependencies": {
+    "@types/node": "*",
+    "csv-parser": "^3.0.0",
     "puppeteer": "^20.7.2",
     "typescript": "^5.1.3"
   },
