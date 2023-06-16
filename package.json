@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ts-node-dev crawler.ts",
+    "start": "ts-node-dev tripadvisor/crawler.ts",
     "cities": "ts-node-dev cities.ts"
   },
   "dependencies": {
